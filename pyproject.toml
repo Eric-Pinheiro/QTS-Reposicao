@@ -1,0 +1,22 @@
+[project]
+name = "qts-reposi-o"
+version = "0.1.0"
+description = "Laboratorio de testes contra SQLi e XSS"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "pytest",
+    "httpx",
+    "pydantic"
+]
+
+[tool.pytest.ini_options]
+markers = [
+    "security: testes de seguranca ofensiva e defensiva (OWASP)",
+]
+filterwarnings = [
+    "ignore::DeprecationWarning",
+    "ignore:.*testclient.*:Warning",
+]

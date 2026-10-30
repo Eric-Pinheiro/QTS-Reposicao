@@ -1,4 +1,4 @@
-# 🛡️ Laboratório de Segurança OWASP: SQLi & XSS em APIs
+# Laboratório de Segurança OWASP: SQLi & XSS em APIs
 
 Este é um projeto prático e educacional focado em simular, identificar e corrigir vulnerabilidades de segurança (Injeção de SQL e Cross-Site Scripting - XSS) em uma API construída com Python. 
 
